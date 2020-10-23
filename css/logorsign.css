@@ -1,0 +1,100 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/mini3.jpg");
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+}
+
+.flexcont {
+  margin: 250px 120px;
+  border-radius: 10px;
+  border: 1px solid rgb(151, 151, 151);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-image: url("../img/forumwall.jpg");
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  font-weight: 300;
+  color: #c0cfe2;
+}
+input {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+}
+.flexcont button {
+  font-size: 40px;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+#logintext:hover {
+  cursor: pointer;
+}
+#signtext:hover {
+  cursor: pointer;
+}
+.butcont {
+  margin: 300px 120px;
+  border-radius: 10px;
+  border: 1px solid rgb(151, 151, 151);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-image: url("../img/forumwall.jpg");
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+  font-size: 10px;
+  font-weight: 300;
+  color: #c0cfe2;
+}
+.butcont button {
+  font-size: 25px;
+  margin-top: 20px;
+  color: white;
+  border: 1px solid silver;
+  outline: none;
+  background-color: transparent;
+  margin: 30px 30px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 20px;
+}
+.flexcont #return {
+  font-size: 15px;
+  border: 1px solid silver;
+}
+/*---------------------------------------------------------------------*/

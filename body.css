@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+}
+#growContainer {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.grow {
+  text-align: center;
+  display: table-cell;
+  height: 100%;
+  width: 25%;
+  -webkit-transition: width 800ms;
+  -moz-transition: width 800ms;
+  transition: width 800ms;
+}
+#growContainer:hover .grow {
+  width: 20%;
+}
+#growContainer:hover .grow:hover {
+  width: 40%;
+}
+#space {
+  background: url("img/mini2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#milky {
+  background: url("img/mini3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.text {
+  margin-top: 420px;
+  font-family: "Space Mono", monospace;
+  font-size: 56px;
+  font-weight: 300;
+  color: #c0cfe2;
+}
+#forum {
+  background: url("img/forumwall.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

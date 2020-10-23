@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url("../img/37664.png");
+}
+
+.flexcont {
+  margin-top: 250px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.item {
+  text-align: center;
+  color: white;
+  padding: 90px;
+  background-color: transparent;
+  border-radius: 5%;
+  font-family: "Space Mono", monospace;
+  font-weight: 500;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 3px;
+  background-color: transparent;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.item {
+  margin: 10px 90px;
+  flex-grow: 2;
+  background-image: url(../img/wall.jpg);
+  background-size: 100% 50px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-animation: stripes 2s linear infinite;
+  animation: stripes 2s linear infinite;
+  font-size: 110px;
+}
+@-webkit-keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+@keyframes stripes {
+  100% {
+    background-position: 0 -50px;
+  }
+}
+
+.infocont {
+  border-radius: 5px;
+  display: flex;
+  color: #e6e6e6;
+  font-weight: 300;
+  padding: 10px;
+  max-width: 60%;
+  margin: 170px auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-image: url(../img/forumwall.jpg);
+}
+.card {
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px 50px;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+}
+#info {
+  flex-grow: 2;
+}
+#img {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  border-radius: 10px;
+}
+img {
+  height: 10%;
+  width: 100%;
+}
+.taswira {
+  border-radius: 10px;
+}
+.close {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 5px;
+  font-size: 25px;
+  color: #fff;
+}
+.close:hover {
+  color: rgb(216, 216, 216);
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 10px;
+}
